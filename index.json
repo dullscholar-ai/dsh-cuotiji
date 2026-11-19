@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Community plugins",
+    "zh": "社区插件"
+  },
+  "description": {
+    "en": "Useful community-built plugins for DeepSeek Harness.",
+    "zh": "社区为 DeepSeek Harness 编写的实用插件。"
+  },
+  "metadata": {
+    "categories": {
+      "education": { "title": { "en": "Education", "zh": "教育" } }
+    },
+    "labels": {
+      "chinese": { "title": { "en": "Chinese", "zh": "中文" } },
+      "offline": { "title": { "en": "Local-first", "zh": "本地优先" } }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@dullscholar-ai/dsh-cuotiji",
+      "title": { "en": "Mistake notebook", "zh": "错题本" },
+      "description": {
+        "en": "Turn exam papers into a searchable, printable mistake set. Upload scans, recognise questions locally, organise by knowledge point, and export one-question-per-page PDFs.",
+        "zh": "把试卷变成可检索、可打印的错题集：上传试卷，本地识别题目，按知识点归集，导出一题一页的 PDF。"
+      },
+      "icon": "icon.svg",
+      "author": "dullscholar-ai",
+      "homepage": "https://github.com/dullscholar-ai/dsh-cuotiji",
+      "repository": {
+        "url": "https://github.com/dullscholar-ai/dsh-cuotiji"
+      },
+      "metadata": {
+        "category": "education",
+        "keywords": ["错题本", "错题集", "ocr", "pdf", "education", "dsh-plugin"],
+        "labels": ["chinese", "offline"]
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1763580000,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dullscholar-ai/dsh-cuotiji",
+            "commit": "a5aa5f2681a53bfe24230e56a8910cb5a32d7b64"
+          },
+          "engines": {
+            "dsh": ">=0.2.0"
+          }
+        }
+      ]
+    }
+  ]
+}

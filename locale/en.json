@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "title": "Mistake notebook",
+    "description": "Upload exam and homework screenshots, PDFs or Markdown, let the model recognise and file each mistake by subject, chapter and knowledge point, review the stem and worked solution per question, then export a one-question-per-page mistake set in a fixed layout.",
+    "detail": "docs/DETAIL.md"
+  },
+  "panel": {
+    "title": "Mistake notebook",
+    "searchPlaceholder": "Search stem, knowledge point, source…",
+    "empty": "No mistakes yet. Drop an exam screenshot or PDF into the upload area above; the model reads it and files each question.",
+    "loading": "Reading the mistake notebook…",
+    "retry": "Retry"
+  }
+}

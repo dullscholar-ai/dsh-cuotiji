@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Mistake notebook">
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="#2F5FE0"/>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#g)" opacity="0.55"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5B8CFF"/>
+      <stop offset="1" stop-color="#1B3FA8"/>
+    </linearGradient>
+  </defs>
+  <path d="M17 12h25a5 5 0 0 1 5 5v30a5 5 0 0 1-5 5H17z" fill="#F7FAFF"/>
+  <path d="M17 12h6v40h-6a4 4 0 0 1-4-4V16a4 4 0 0 1 4-4z" fill="#C9DAFF"/>
+  <g stroke="#B9C6DE" stroke-width="2" stroke-linecap="round">
+    <line x1="28" y1="22" x2="43" y2="22"/>
+    <line x1="28" y1="32" x2="43" y2="32"/>
+    <line x1="28" y1="42" x2="38" y2="42"/>
+  </g>
+  <g stroke-linecap="round" stroke-width="3.2">
+    <line x1="27" y1="18.5" x2="37" y2="25.5" stroke="#E8463B"/>
+    <line x1="37" y1="18.5" x2="27" y2="25.5" stroke="#E8463B"/>
+  </g>
+  <path d="M33 40.5l3.2 3.2 6-6.4" fill="none" stroke="#1FA97A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

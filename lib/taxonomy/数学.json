@@ -1,0 +1,389 @@
+{
+  "subject": "数学",
+  "publisher": "浙教版",
+  "note": "按浙江教育出版社《义务教育教科书·数学》2024 审定版（现行最新，七/八/九年级均已换用）整理，只到章、节两级，不含知识点层。节编号为章内编号（如 1.1、1.2），章名节名照抄教材目录原文。2012 审定旧版差异较大（如八下旧版有“第6章 反比例函数”以外的编排、九上旧版第2章为“简单事件的概率”等），本文件不采用旧版。每一条 unverified 表示该条目未能在两个及以上独立来源中得到一致印证，使用时请以纸质课本核对；整册无法确认时 chapters 为空数组并标 unverified。",
+  "books": [
+    {
+      "grade": 7,
+      "semester": "上",
+      "book": "七年级上册",
+      "edition": "浙教版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第1章 有理数",
+          "unverified": false,
+          "sections": [
+            { "section": "1.1 从自然数到有理数", "unverified": false },
+            { "section": "1.2 数轴", "unverified": false },
+            { "section": "1.3 绝对值", "unverified": false },
+            { "section": "1.4 有理数大小比较", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第2章 有理数的运算",
+          "unverified": false,
+          "sections": [
+            { "section": "2.1 有理数的加法", "unverified": false },
+            { "section": "2.2 有理数的减法", "unverified": false },
+            { "section": "2.3 有理数的乘法", "unverified": false },
+            { "section": "2.4 有理数的除法", "unverified": false },
+            { "section": "2.5 有理数的乘方", "unverified": false },
+            { "section": "2.6 有理数的混合运算", "unverified": false },
+            { "section": "2.7 近似数", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第3章 实数",
+          "unverified": false,
+          "sections": [
+            { "section": "3.1 平方根", "unverified": false },
+            { "section": "3.2 从有理数到实数", "unverified": false },
+            { "section": "3.3 立方根", "unverified": false },
+            { "section": "3.4 实数的运算", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第4章 代数式",
+          "unverified": false,
+          "sections": [
+            { "section": "4.1 列代数式", "unverified": false },
+            { "section": "4.2 代数式的值", "unverified": false },
+            { "section": "4.3 整式", "unverified": false },
+            { "section": "4.4 合并同类项", "unverified": false },
+            { "section": "4.5 整式的加减", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第5章 一元一次方程",
+          "unverified": false,
+          "sections": [
+            { "section": "5.1 认识方程", "unverified": false },
+            { "section": "5.2 等式的基本性质", "unverified": false },
+            { "section": "5.3 一元一次方程和它的解", "unverified": false },
+            { "section": "5.4 一元一次方程的解法", "unverified": false },
+            { "section": "5.5 一元一次方程的应用", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第6章 图形的初步知识",
+          "unverified": false,
+          "sections": [
+            { "section": "6.1 几何图形", "unverified": false },
+            { "section": "6.2 线段、射线和直线", "unverified": false },
+            { "section": "6.3 线段的长短比较", "unverified": false },
+            { "section": "6.4 线段的和差", "unverified": false },
+            { "section": "6.5 角与角的度量", "unverified": false },
+            { "section": "6.6 角的大小比较", "unverified": false },
+            { "section": "6.7 角的和差", "unverified": false },
+            { "section": "6.8 余角和补角", "unverified": false }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 7,
+      "semester": "下",
+      "book": "七年级下册",
+      "edition": "浙教版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第1章 相交线与平行线",
+          "unverified": false,
+          "sections": [
+            { "section": "1.1 直线的相交", "unverified": false },
+            { "section": "1.2 同位角、内错角、同旁内角", "unverified": false },
+            { "section": "1.3 平行线", "unverified": false },
+            { "section": "1.4 平行线的判定", "unverified": false },
+            { "section": "1.5 平行线的性质", "unverified": false },
+            { "section": "1.6 图形的平移", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第2章 二元一次方程组",
+          "unverified": false,
+          "sections": [
+            { "section": "2.1 二元一次方程", "unverified": false },
+            { "section": "2.2 二元一次方程组和它的解", "unverified": false },
+            { "section": "2.3 解二元一次方程组", "unverified": false },
+            { "section": "2.4 二元一次方程组的应用", "unverified": false },
+            { "section": "2.5 三元一次方程组及其解法", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第3章 整式的乘除",
+          "unverified": false,
+          "sections": [
+            { "section": "3.1 同底数幂的乘法", "unverified": false },
+            { "section": "3.2 单项式的乘法", "unverified": false },
+            { "section": "3.3 多项式的乘法", "unverified": false },
+            { "section": "3.4 乘法公式", "unverified": false },
+            { "section": "3.5 整式的化简", "unverified": false },
+            { "section": "3.6 同底数幂的除法", "unverified": false },
+            { "section": "3.7 整式的除法", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第4章 因式分解",
+          "unverified": false,
+          "sections": [
+            { "section": "4.1 因式分解的意义", "unverified": false },
+            { "section": "4.2 提取公因式法", "unverified": false },
+            { "section": "4.3 用乘法公式分解因式", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第5章 分式",
+          "unverified": false,
+          "sections": [
+            { "section": "5.1 分式的意义", "unverified": false },
+            { "section": "5.2 分式的基本性质", "unverified": false },
+            { "section": "5.3 分式的乘除", "unverified": false },
+            { "section": "5.4 分式的加减", "unverified": false },
+            { "section": "5.5 分式方程", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第6章 数据与统计图表",
+          "unverified": false,
+          "sections": [
+            { "section": "6.1 数据的收集与整理", "unverified": false },
+            { "section": "6.2 条形统计图和折线统计图", "unverified": false },
+            { "section": "6.3 扇形统计图", "unverified": false },
+            { "section": "6.4 频数与频率", "unverified": false },
+            { "section": "6.5 频数直方图", "unverified": false }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 8,
+      "semester": "上",
+      "book": "八年级上册",
+      "edition": "浙教版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第1章 三角形的初步知识",
+          "unverified": false,
+          "sections": [
+            { "section": "1.1 认识三角形", "unverified": false },
+            { "section": "1.2 定义与命题", "unverified": false },
+            { "section": "1.3 证明", "unverified": false },
+            { "section": "1.4 全等三角形", "unverified": false },
+            { "section": "1.5 三角形全等的判定", "unverified": false },
+            { "section": "1.6 线段垂直平分线的性质", "unverified": false },
+            { "section": "1.7 角平分线的性质", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第2章 特殊三角形",
+          "unverified": false,
+          "sections": [
+            { "section": "2.1 图形的轴对称", "unverified": false },
+            { "section": "2.2 等腰三角形", "unverified": false },
+            { "section": "2.3 等腰三角形的性质定理", "unverified": false },
+            { "section": "2.4 等腰三角形的判定定理", "unverified": false },
+            { "section": "2.5 逆命题和逆定理", "unverified": false },
+            { "section": "2.6 直角三角形", "unverified": false },
+            { "section": "2.7 探索勾股定理", "unverified": false },
+            { "section": "2.8 直角三角形全等的判定", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第3章 一元一次不等式",
+          "unverified": false,
+          "sections": [
+            { "section": "3.1 认识不等式", "unverified": false },
+            { "section": "3.2 不等式的基本性质", "unverified": false },
+            { "section": "3.3 一元一次不等式及其解法", "unverified": false },
+            { "section": "3.4 一元一次不等式的应用", "unverified": false },
+            { "section": "3.5 一元一次不等式组", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第4章 图形与坐标",
+          "unverified": false,
+          "sections": [
+            { "section": "4.1 平面直角坐标系", "unverified": false },
+            { "section": "4.2 用方向和距离确定物体的位置", "unverified": false },
+            { "section": "4.3 坐标平面内图形的轴对称和平移", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第5章 一次函数",
+          "unverified": false,
+          "sections": [
+            { "section": "5.1 常量与变量", "unverified": false },
+            { "section": "5.2 认识函数", "unverified": false },
+            { "section": "5.3 一次函数的意义", "unverified": false },
+            { "section": "5.4 一次函数的图象与性质", "unverified": false },
+            { "section": "5.5 一次函数的简单应用", "unverified": false }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 8,
+      "semester": "下",
+      "book": "八年级下册",
+      "edition": "浙教版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第1章 二次根式",
+          "unverified": false,
+          "sections": [
+            { "section": "1.1 二次根式的意义", "unverified": false },
+            { "section": "1.2 二次根式的性质", "unverified": false },
+            { "section": "1.3 二次根式的运算", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第2章 一元二次方程",
+          "unverified": false,
+          "sections": [
+            { "section": "2.1 一元二次方程和它的解", "unverified": false },
+            { "section": "2.2 一元二次方程的解法", "unverified": false },
+            { "section": "2.3 一元二次方程根与系数的关系", "unverified": false },
+            { "section": "2.4 一元二次方程的应用", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第3章 数据分析初步",
+          "unverified": false,
+          "sections": [
+            { "section": "3.1 平均数", "unverified": false },
+            { "section": "3.2 中位数和众数", "unverified": false },
+            { "section": "3.3 离差平方和与方差", "unverified": false },
+            { "section": "3.4 四分位数和箱线图", "unverified": true }
+          ]
+        },
+        {
+          "chapter": "第4章 平行四边形",
+          "unverified": false,
+          "sections": [
+            { "section": "4.1 多边形", "unverified": false },
+            { "section": "4.2 平行四边形及其性质", "unverified": false },
+            { "section": "4.3 图形的旋转", "unverified": false },
+            { "section": "4.4 平行四边形的判定", "unverified": true },
+            { "section": "4.5 三角形的中位线", "unverified": false },
+            { "section": "4.6 反证法", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第5章 特殊平行四边形",
+          "unverified": false,
+          "sections": [
+            { "section": "5.1 矩形", "unverified": false },
+            { "section": "5.2 菱形", "unverified": false },
+            { "section": "5.3 正方形", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第6章 反比例函数",
+          "unverified": false,
+          "sections": [
+            { "section": "6.1 反比例函数", "unverified": false },
+            { "section": "6.2 反比例函数的图象和性质", "unverified": false },
+            { "section": "6.3 反比例函数的应用", "unverified": false }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 9,
+      "semester": "上",
+      "book": "九年级上册",
+      "edition": "浙教版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第1章 二次函数",
+          "unverified": false,
+          "sections": [
+            { "section": "1.1 二次函数的意义", "unverified": false },
+            { "section": "1.2 二次函数的图象", "unverified": false },
+            { "section": "1.3 二次函数的性质", "unverified": false },
+            { "section": "1.4 二次函数与一元二次方程的关系", "unverified": false },
+            { "section": "1.5 二次函数的应用", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第2章 随机事件的概率",
+          "unverified": false,
+          "sections": [
+            { "section": "2.1 随机事件", "unverified": false },
+            { "section": "2.2 简单随机事件的概率", "unverified": false },
+            { "section": "2.3 用频率估计概率", "unverified": false },
+            { "section": "2.4 概率的简单应用", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第3章 圆的基本性质",
+          "unverified": false,
+          "sections": [
+            { "section": "3.1 圆的有关概念", "unverified": false },
+            { "section": "3.2 圆心角", "unverified": false },
+            { "section": "3.3 垂径定理", "unverified": false },
+            { "section": "3.4 圆周角", "unverified": false },
+            { "section": "3.5 圆内接四边形", "unverified": false },
+            { "section": "3.6 正多边形", "unverified": false },
+            { "section": "3.7 弧长及扇形的面积", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第4章 相似三角形",
+          "unverified": false,
+          "sections": [
+            { "section": "4.1 比例线段", "unverified": false },
+            { "section": "4.2 由平行线截得的比例线段", "unverified": false },
+            { "section": "4.3 认识相似三角形", "unverified": true },
+            { "section": "4.4 两个三角形相似的判定", "unverified": false },
+            { "section": "4.5 相似三角形的性质及其应用", "unverified": false },
+            { "section": "4.6 相似多边形", "unverified": false },
+            { "section": "4.7 图形的位似", "unverified": false }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 9,
+      "semester": "下",
+      "book": "九年级下册",
+      "edition": "浙教版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第1章 解直角三角形",
+          "unverified": false,
+          "sections": [
+            { "section": "1.1 锐角三角函数", "unverified": false },
+            { "section": "1.2 锐角三角函数的计算", "unverified": false },
+            { "section": "1.3 解直角三角形", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第2章 直线与圆的位置关系",
+          "unverified": false,
+          "sections": [
+            { "section": "2.1 直线与圆的位置关系", "unverified": false },
+            { "section": "2.2 切线长定理", "unverified": false },
+            { "section": "2.3 三角形的内切圆", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第3章 投影与三视图",
+          "unverified": false,
+          "sections": [
+            { "section": "3.1 投影", "unverified": false },
+            { "section": "3.2 简单几何体的三视图", "unverified": false },
+            { "section": "3.3 由三视图描述几何体", "unverified": false },
+            { "section": "3.4 简单几何体的表面展开图", "unverified": false }
+          ]
+        }
+      ]
+    }
+  ]
+}

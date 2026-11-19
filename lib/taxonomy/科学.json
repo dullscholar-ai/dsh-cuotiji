@@ -1,0 +1,753 @@
+{
+  "subject": "科学",
+  "publisher": "浙教版",
+  "note": "七年级（上、下）为浙教版 2024 版新教材；八年级（上、下）、九年级（上、下）为浙教版 2013 修订版。版本切换说明：浙教版 2024 版八年级新教材（八上第一章为「对环境的觉察」等）已陆续启用，本表八、九年级仍按 2013 修订版收录，二者章节结构完全不同，录入错题时请按学生实际使用的课本选择。章名、节名按教材目录原文照录（保留「第N章」「第N节」前缀与原文标点），章节序号统一为阿拉伯数字。",
+  "books": [
+    {
+      "grade": 7,
+      "semester": "上",
+      "book": "七年级上册",
+      "edition": "浙教版 2024版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第1章 探索自然的科学",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 科学并不神秘",
+              "unverified": false
+            },
+            {
+              "section": "第2节 科学测量",
+              "unverified": false
+            },
+            {
+              "section": "第3节 像科学家那样探究",
+              "unverified": false
+            }
+          ]
+        },
+        {
+          "chapter": "第2章 丰富多彩的生命世界",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 生物体的基本单位",
+              "unverified": false
+            },
+            {
+              "section": "第2节 形形色色的植物",
+              "unverified": false
+            },
+            {
+              "section": "第3节 多姿多彩的动物",
+              "unverified": false
+            },
+            {
+              "section": "第4节 生物的分类",
+              "unverified": false
+            },
+            {
+              "section": "第5节 生物多样性",
+              "unverified": false
+            }
+          ]
+        },
+        {
+          "chapter": "第3章 广袤浩瀚的宇宙",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 认识地球",
+              "unverified": false
+            },
+            {
+              "section": "第2节 太阳系的组成与结构",
+              "unverified": false
+            },
+            {
+              "section": "第3节 人类对宇宙的探索",
+              "unverified": false
+            }
+          ]
+        },
+        {
+          "chapter": "第4章 多种多样的运动",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 机械运动",
+              "unverified": false
+            },
+            {
+              "section": "第2节 地球的转动",
+              "unverified": false
+            },
+            {
+              "section": "第3节 日地月的相对运动",
+              "unverified": false
+            },
+            {
+              "section": "第4节 地球板块的缓慢运动",
+              "unverified": false
+            }
+          ]
+        },
+        {
+          "chapter": "第5章 探索技术与工程的世界",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 认识技术与工程",
+              "unverified": false
+            },
+            {
+              "section": "第2节 像工程师那样实践",
+              "unverified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 7,
+      "semester": "下",
+      "book": "七年级下册",
+      "edition": "浙教版 2024版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第1章 生物的结构与生殖",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 生物体的结构层次",
+              "unverified": false
+            },
+            {
+              "section": "第2节 人和动物的生殖与发育",
+              "unverified": false
+            },
+            {
+              "section": "第3节 植物的生殖与发育",
+              "unverified": false
+            },
+            {
+              "section": "第4节 微生物的结构与生殖",
+              "unverified": false
+            }
+          ]
+        },
+        {
+          "chapter": "第2章 物质的微观结构",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 走进微观世界",
+              "unverified": false
+            },
+            {
+              "section": "第2节 建构分子模型",
+              "unverified": false
+            },
+            {
+              "section": "第3节 建构原子模型",
+              "unverified": false
+            },
+            {
+              "section": "第4节 探究物质组成的奥秘",
+              "unverified": false
+            },
+            {
+              "section": "第5节 用化学式表示物质",
+              "unverified": false
+            }
+          ]
+        },
+        {
+          "chapter": "第3章 物质的特性",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 质量和密度",
+              "unverified": false
+            },
+            {
+              "section": "第2节 物态变化",
+              "unverified": false
+            },
+            {
+              "section": "第3节 物质的变化与性质",
+              "unverified": false
+            }
+          ]
+        },
+        {
+          "chapter": "第4章 我们生活的大地",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 探索地球表面",
+              "unverified": false
+            },
+            {
+              "section": "第2节 土壤的结构和质地",
+              "unverified": false
+            },
+            {
+              "section": "第3节 土壤与植物生长",
+              "unverified": false
+            },
+            {
+              "section": "第4节 保护土壤",
+              "unverified": false
+            }
+          ]
+        },
+        {
+          "chapter": "第5章 制造技术与工程",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 走进制造",
+              "unverified": false
+            },
+            {
+              "section": "第2节 我们一起来制造",
+              "unverified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 8,
+      "semester": "上",
+      "book": "八年级上册",
+      "edition": "浙教版 2013修订版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第1章 水和水的溶液",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 地球上的水",
+              "unverified": false
+            },
+            {
+              "section": "第2节 水的组成",
+              "unverified": false
+            },
+            {
+              "section": "第3节 水的浮力",
+              "unverified": false
+            },
+            {
+              "section": "第4节 物质在水中的分散状况",
+              "unverified": false
+            },
+            {
+              "section": "第5节 物质的溶解",
+              "unverified": false
+            },
+            {
+              "section": "第6节 物质的分离",
+              "unverified": false
+            },
+            {
+              "section": "第7节 水资源的利用、开发和保护",
+              "unverified": false
+            }
+          ]
+        },
+        {
+          "chapter": "第2章 天气与气候",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 大气层",
+              "unverified": false
+            },
+            {
+              "section": "第2节 气温",
+              "unverified": false
+            },
+            {
+              "section": "第3节 大气的压强",
+              "unverified": false
+            },
+            {
+              "section": "第4节 风和降水",
+              "unverified": false
+            },
+            {
+              "section": "第5节 天气预报",
+              "unverified": false
+            },
+            {
+              "section": "第6节 气候和影响气候的因素",
+              "unverified": false
+            },
+            {
+              "section": "第7节 我国的气候特征与主要气象灾害",
+              "unverified": false
+            }
+          ]
+        },
+        {
+          "chapter": "第3章 生命活动的调节",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 植物生命活动的调节",
+              "unverified": false
+            },
+            {
+              "section": "第2节 人体的激素调节",
+              "unverified": false
+            },
+            {
+              "section": "第3节 神经调节",
+              "unverified": false
+            },
+            {
+              "section": "第4节 动物的行为",
+              "unverified": false
+            },
+            {
+              "section": "第5节 体温的控制",
+              "unverified": false
+            }
+          ]
+        },
+        {
+          "chapter": "第4章 电路探秘",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 电荷与电流",
+              "unverified": false
+            },
+            {
+              "section": "第2节 电流的测量",
+              "unverified": false
+            },
+            {
+              "section": "第3节 物质的导电性与电阻",
+              "unverified": false
+            },
+            {
+              "section": "第4节 变阻器",
+              "unverified": false
+            },
+            {
+              "section": "第5节 电压的测量",
+              "unverified": false
+            },
+            {
+              "section": "第6节 电流与电压、电阻的关系",
+              "unverified": false
+            },
+            {
+              "section": "第7节 电路分析与应用",
+              "unverified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 8,
+      "semester": "下",
+      "book": "八年级下册",
+      "edition": "浙教版 2013修订版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第1章 电与磁",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 指南针为什么能指方向",
+              "unverified": false
+            },
+            {
+              "section": "第2节 电生磁",
+              "unverified": false
+            },
+            {
+              "section": "第3节 电磁铁的应用",
+              "unverified": false
+            },
+            {
+              "section": "第4节 电动机",
+              "unverified": false
+            },
+            {
+              "section": "第5节 磁生电",
+              "unverified": false
+            },
+            {
+              "section": "第6节 家庭用电",
+              "unverified": false
+            },
+            {
+              "section": "第7节 电的安全使用",
+              "unverified": false
+            }
+          ]
+        },
+        {
+          "chapter": "第2章 微粒的模型与符号",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 模型、符号的建立与作用",
+              "unverified": false
+            },
+            {
+              "section": "第2节 物质的微观粒子模型",
+              "unverified": false
+            },
+            {
+              "section": "第3节 原子结构的模型",
+              "unverified": false
+            },
+            {
+              "section": "第4节 组成物质的元素",
+              "unverified": false
+            },
+            {
+              "section": "第5节 表示元素的符号",
+              "unverified": false
+            },
+            {
+              "section": "第6节 表示物质的符号",
+              "unverified": false
+            },
+            {
+              "section": "第7节 元素符号表示的量",
+              "unverified": false
+            }
+          ]
+        },
+        {
+          "chapter": "第3章 空气与生命",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 空气与氧气",
+              "unverified": false
+            },
+            {
+              "section": "第2节 氧化和燃烧",
+              "unverified": false
+            },
+            {
+              "section": "第3节 化学方程式",
+              "unverified": false
+            },
+            {
+              "section": "第4节 二氧化碳",
+              "unverified": false
+            },
+            {
+              "section": "第5节 生物的呼吸和呼吸作用",
+              "unverified": false
+            },
+            {
+              "section": "第6节 光合作用",
+              "unverified": false
+            },
+            {
+              "section": "第7节 自然界中的氧循环和碳循环",
+              "unverified": false
+            },
+            {
+              "section": "第8节 空气污染与保护",
+              "unverified": false
+            }
+          ]
+        },
+        {
+          "chapter": "第4章 植物与土壤",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 土壤的成分",
+              "unverified": false
+            },
+            {
+              "section": "第2节 各种各样的土壤",
+              "unverified": false
+            },
+            {
+              "section": "第3节 植物的根与物质吸收",
+              "unverified": false
+            },
+            {
+              "section": "第4节 植物的茎与物质运输",
+              "unverified": false
+            },
+            {
+              "section": "第5节 植物的叶与蒸腾作用",
+              "unverified": false
+            },
+            {
+              "section": "第6节 保护土壤",
+              "unverified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 9,
+      "semester": "上",
+      "book": "九年级上册",
+      "edition": "浙教版 2013修订版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第1章 物质及其变化",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 物质的变化",
+              "unverified": false
+            },
+            {
+              "section": "第2节 物质的酸碱性",
+              "unverified": false
+            },
+            {
+              "section": "第3节 常见的酸",
+              "unverified": false
+            },
+            {
+              "section": "第4节 常见的碱",
+              "unverified": false
+            },
+            {
+              "section": "第5节 酸和碱之间发生的反应",
+              "unverified": false
+            },
+            {
+              "section": "第6节 几种重要的盐",
+              "unverified": false
+            }
+          ]
+        },
+        {
+          "chapter": "第2章 物质转化与材料利用",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 金属材料",
+              "unverified": false
+            },
+            {
+              "section": "第2节 金属的化学性质",
+              "unverified": false
+            },
+            {
+              "section": "第3节 有机物和有机合成材料",
+              "unverified": false
+            },
+            {
+              "section": "第4节 物质的分类",
+              "unverified": false
+            },
+            {
+              "section": "第5节 物质的转化",
+              "unverified": false
+            },
+            {
+              "section": "第6节 材料的利用与发展",
+              "unverified": false
+            }
+          ]
+        },
+        {
+          "chapter": "第3章 能量的转化与守恒",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 能量及其形式",
+              "unverified": false
+            },
+            {
+              "section": "第2节 机械能",
+              "unverified": false
+            },
+            {
+              "section": "第3节 能量转化的量度",
+              "unverified": false
+            },
+            {
+              "section": "第4节 简单机械",
+              "unverified": false
+            },
+            {
+              "section": "第5节 物体的内能",
+              "unverified": false
+            },
+            {
+              "section": "第6节 电能",
+              "unverified": false
+            },
+            {
+              "section": "第7节 核能",
+              "unverified": false
+            },
+            {
+              "section": "第8节 能量的转化与守恒",
+              "unverified": false
+            }
+          ]
+        },
+        {
+          "chapter": "第4章 代谢与平衡",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 食物与营养",
+              "unverified": false
+            },
+            {
+              "section": "第2节 食物的消化与吸收",
+              "unverified": false
+            },
+            {
+              "section": "第3节 体内物质的运输",
+              "unverified": false
+            },
+            {
+              "section": "第4节 能量的获得",
+              "unverified": false
+            },
+            {
+              "section": "第5节 体内物质的动态平衡",
+              "unverified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 9,
+      "semester": "下",
+      "book": "九年级下册",
+      "edition": "浙教版 2013修订版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第1章 演化的自然",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 人类对宇宙的认识",
+              "unverified": false
+            },
+            {
+              "section": "第2节 太阳系的形成和恒星的演化",
+              "unverified": false
+            },
+            {
+              "section": "第3节 地球的演化和生命的起源",
+              "unverified": false
+            },
+            {
+              "section": "第4节 生物的进化",
+              "unverified": false
+            },
+            {
+              "section": "第5节 遗传与进化",
+              "unverified": false
+            }
+          ]
+        },
+        {
+          "chapter": "第2章 生物与环境",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 生物与环境的相互关系",
+              "unverified": false
+            },
+            {
+              "section": "第2节 种群",
+              "unverified": false
+            },
+            {
+              "section": "第3节 生物群落",
+              "unverified": false
+            },
+            {
+              "section": "第4节 生态系统的结构和功能",
+              "unverified": false
+            },
+            {
+              "section": "第5节 生态系统的稳定性",
+              "unverified": false
+            }
+          ]
+        },
+        {
+          "chapter": "第3章 人的健康与环境",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 健康",
+              "unverified": false
+            },
+            {
+              "section": "第2节 来自微生物的威胁",
+              "unverified": false
+            },
+            {
+              "section": "第3节 身体的防卫",
+              "unverified": false
+            },
+            {
+              "section": "第4节 非传染性疾病",
+              "unverified": false
+            },
+            {
+              "section": "第5节 人的运动系统和保健",
+              "unverified": false
+            },
+            {
+              "section": "第6节 健康生活",
+              "unverified": false
+            }
+          ]
+        },
+        {
+          "chapter": "第4章 环境与可持续发展",
+          "unverified": false,
+          "sections": [
+            {
+              "section": "第1节 人类发展与环境问题",
+              "unverified": false
+            },
+            {
+              "section": "第2节 能源及其利用",
+              "unverified": false
+            },
+            {
+              "section": "第3节 低碳生活",
+              "unverified": false
+            },
+            {
+              "section": "第4节 实现可持续发展",
+              "unverified": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

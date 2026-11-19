@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "title": "错题本",
+    "description": "把试卷与作业的截图、PDF、Markdown 上传后由模型识别入库，按学科·章节·知识点归集错题，逐题复核题干与解析，并按固定版式导出一题一页的错题集。",
+    "detail": "docs/DETAIL.md"
+  },
+  "panel": {
+    "title": "错题本",
+    "searchPlaceholder": "搜索题干、知识点、出处…",
+    "empty": "还没有错题。把试卷截图或 PDF 放进上面的上传区，模型会识别并逐题入库。",
+    "loading": "正在读取错题本…",
+    "retry": "重试"
+  }
+}

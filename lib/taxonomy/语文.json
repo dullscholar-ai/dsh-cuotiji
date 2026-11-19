@@ -1,0 +1,508 @@
+{
+  "subject": "语文",
+  "publisher": "部编版（人教版）",
+  "note": "语文按单元组织；chapter 写单元，section 写该单元的课文/写作/综合性学习；课号与篇名之间保留一个空格，不写自读课文的星号；活动·探究单元的任务以「任务一 新闻阅读」形式列出；「课外古诗词诵读」按单元合并为一条，篇名用、分隔",
+  "books": [
+    {
+      "grade": 7,
+      "semester": "上",
+      "book": "七年级上册",
+      "edition": "部编版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第一单元",
+          "unverified": false,
+          "sections": [
+            { "section": "1 春", "unverified": false },
+            { "section": "2 济南的冬天", "unverified": false },
+            { "section": "3 雨的四季", "unverified": false },
+            { "section": "4 古代诗歌四首", "unverified": false },
+            { "section": "写作：热爱生活，热爱写作", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第二单元",
+          "unverified": false,
+          "sections": [
+            { "section": "5 秋天的怀念", "unverified": false },
+            { "section": "6 散步", "unverified": false },
+            { "section": "7 散文诗二首", "unverified": false },
+            { "section": "8 《世说新语》二则", "unverified": false },
+            { "section": "写作：学会记事", "unverified": false },
+            { "section": "综合性学习：有朋自远方来", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第三单元",
+          "unverified": false,
+          "sections": [
+            { "section": "9 从百草园到三味书屋", "unverified": false },
+            { "section": "10 再塑生命的人", "unverified": false },
+            { "section": "11 《论语》十二章", "unverified": false },
+            { "section": "写作：写人要抓住特点", "unverified": false },
+            { "section": "名著导读：《朝花夕拾》消除与经典的隔膜", "unverified": false },
+            { "section": "课外古诗词诵读：峨眉山月歌、江南逢李龟年、行军九日思长安故园、夜上受降城闻笛", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第四单元",
+          "unverified": false,
+          "sections": [
+            { "section": "12 纪念白求恩", "unverified": false },
+            { "section": "13 植树的牧羊人", "unverified": false },
+            { "section": "14 走一步，再走一步", "unverified": false },
+            { "section": "15 诫子书", "unverified": false },
+            { "section": "写作：思路要清晰", "unverified": false },
+            { "section": "综合性学习：少年正是读书时", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第五单元",
+          "unverified": false,
+          "sections": [
+            { "section": "16 猫", "unverified": false },
+            { "section": "17 动物笑谈", "unverified": false },
+            { "section": "18 狼", "unverified": false },
+            { "section": "写作：如何突出中心", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第六单元",
+          "unverified": false,
+          "sections": [
+            { "section": "19 皇帝的新装", "unverified": false },
+            { "section": "20 天上的街市", "unverified": false },
+            { "section": "21 女娲造人", "unverified": false },
+            { "section": "22 寓言四则", "unverified": false },
+            { "section": "写作：发挥联想和想象", "unverified": false },
+            { "section": "综合性学习：文学部落", "unverified": false },
+            { "section": "名著导读：《西游记》精读和跳读", "unverified": false },
+            { "section": "课外古诗词诵读：秋词（其一）、夜雨寄北、十一月四日风雨大作、潼关", "unverified": false }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 7,
+      "semester": "下",
+      "book": "七年级下册",
+      "edition": "部编版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第一单元",
+          "unverified": false,
+          "sections": [
+            { "section": "1 邓稼先", "unverified": false },
+            { "section": "2 说和做——记闻一多先生言行片段", "unverified": false },
+            { "section": "3 回忆鲁迅先生（节选）", "unverified": false },
+            { "section": "4 孙权劝学", "unverified": false },
+            { "section": "写作：写出人物的精神", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第二单元",
+          "unverified": false,
+          "sections": [
+            { "section": "5 黄河颂", "unverified": false },
+            { "section": "6 最后一课", "unverified": false },
+            { "section": "7 土地的誓言", "unverified": false },
+            { "section": "8 木兰诗", "unverified": false },
+            { "section": "写作：学习抒情", "unverified": false },
+            { "section": "综合性学习：天下国家", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第三单元",
+          "unverified": false,
+          "sections": [
+            { "section": "9 阿长与《山海经》", "unverified": false },
+            { "section": "10 老王", "unverified": false },
+            { "section": "11 台阶", "unverified": false },
+            { "section": "12 卖油翁", "unverified": false },
+            { "section": "写作：抓住细节", "unverified": false },
+            { "section": "名著导读：《骆驼祥子》圈点与批注", "unverified": false },
+            { "section": "课外古诗词诵读：竹里馆、春夜洛城闻笛、逢入京使、晚春", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第四单元",
+          "unverified": false,
+          "sections": [
+            { "section": "13 叶圣陶先生二三事", "unverified": false },
+            { "section": "14 驿路梨花", "unverified": false },
+            { "section": "15 最苦与最乐", "unverified": false },
+            { "section": "16 短文两篇", "unverified": false },
+            { "section": "写作：怎样选材", "unverified": false },
+            { "section": "综合性学习：孝亲敬老，从我做起", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第五单元",
+          "unverified": false,
+          "sections": [
+            { "section": "17 紫藤萝瀑布", "unverified": false },
+            { "section": "18 一棵小桃树", "unverified": false },
+            { "section": "19 外国诗二首", "unverified": false },
+            { "section": "20 古代诗歌五首", "unverified": false },
+            { "section": "写作：文从字顺", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第六单元",
+          "unverified": false,
+          "sections": [
+            { "section": "21 伟大的悲剧", "unverified": false },
+            { "section": "22 太空一日", "unverified": false },
+            { "section": "23 带上她的眼睛", "unverified": false },
+            { "section": "24 河中石兽", "unverified": false },
+            { "section": "写作：语言简明", "unverified": false },
+            { "section": "综合性学习：我的语文生活", "unverified": false },
+            { "section": "名著导读：《海底两万里》快速阅读", "unverified": false },
+            { "section": "课外古诗词诵读：泊秦淮、贾生、过松源晨炊漆公店（其五）、约客", "unverified": false }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 8,
+      "semester": "上",
+      "book": "八年级上册",
+      "edition": "部编版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第一单元",
+          "unverified": false,
+          "sections": [
+            { "section": "任务一 新闻阅读", "unverified": false },
+            { "section": "1 消息二则", "unverified": false },
+            { "section": "2 首届诺贝尔奖颁发", "unverified": false },
+            { "section": "3 “飞天”凌空——跳水姑娘吕伟夺魁记", "unverified": false },
+            { "section": "4 一着惊海天——目击我国航母舰载战斗机首架次成功着舰", "unverified": false },
+            { "section": "任务二 新闻采访", "unverified": false },
+            { "section": "任务三 新闻写作", "unverified": false },
+            { "section": "口语交际：讲述", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第二单元",
+          "unverified": false,
+          "sections": [
+            { "section": "5 藤野先生", "unverified": false },
+            { "section": "6 回忆我的母亲", "unverified": false },
+            { "section": "7 列夫·托尔斯泰", "unverified": false },
+            { "section": "8 美丽的颜色", "unverified": false },
+            { "section": "写作：学写传记", "unverified": false },
+            { "section": "综合性学习：人无信不立", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第三单元",
+          "unverified": false,
+          "sections": [
+            { "section": "9 三峡", "unverified": false },
+            { "section": "10 短文两篇", "unverified": false },
+            { "section": "11 与朱元思书", "unverified": false },
+            { "section": "12 唐诗五首", "unverified": false },
+            { "section": "写作：学习描写景物", "unverified": false },
+            { "section": "名著导读：《红星照耀中国》纪实作品的阅读", "unverified": false },
+            { "section": "课外古诗词诵读：庭中有奇树、龟虽寿、赠从弟（其二）、梁甫行", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第四单元",
+          "unverified": false,
+          "sections": [
+            { "section": "13 背影", "unverified": false },
+            { "section": "14 白杨礼赞", "unverified": false },
+            { "section": "15 散文二篇", "unverified": false },
+            { "section": "16 昆明的雨", "unverified": false },
+            { "section": "写作：语言要连贯", "unverified": false },
+            { "section": "综合性学习：我们的互联网时代", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第五单元",
+          "unverified": false,
+          "sections": [
+            { "section": "17 中国石拱桥", "unverified": false },
+            { "section": "18 苏州园林", "unverified": false },
+            { "section": "19 蝉", "unverified": false },
+            { "section": "20 梦回繁华", "unverified": false },
+            { "section": "写作：说明事物要抓住特征", "unverified": false },
+            { "section": "口语交际：复述与转述", "unverified": false },
+            { "section": "名著导读：《昆虫记》科普作品的阅读", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第六单元",
+          "unverified": false,
+          "sections": [
+            { "section": "21 《孟子》二章", "unverified": false },
+            { "section": "22 愚公移山", "unverified": false },
+            { "section": "23 周亚夫军细柳", "unverified": false },
+            { "section": "24 诗词五首", "unverified": false },
+            { "section": "写作：表达要得体", "unverified": false },
+            { "section": "综合性学习：身边的文化遗产", "unverified": false },
+            { "section": "课外古诗词诵读：浣溪沙（一曲新词酒一杯）、采桑子（轻舟短棹西湖好）、相见欢（金陵城上西楼）、如梦令（常记溪亭日暮）", "unverified": false }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 8,
+      "semester": "下",
+      "book": "八年级下册",
+      "edition": "部编版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第一单元",
+          "unverified": false,
+          "sections": [
+            { "section": "1 社戏", "unverified": false },
+            { "section": "2 回延安", "unverified": false },
+            { "section": "3 安塞腰鼓", "unverified": false },
+            { "section": "4 灯笼", "unverified": false },
+            { "section": "写作：学习仿写", "unverified": false },
+            { "section": "口语交际：应对", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第二单元",
+          "unverified": false,
+          "sections": [
+            { "section": "5 大自然的语言", "unverified": false },
+            { "section": "6 阿西莫夫短文两篇", "unverified": false },
+            { "section": "7 大雁归来", "unverified": false },
+            { "section": "8 时间的脚印", "unverified": false },
+            { "section": "写作：说明的顺序", "unverified": false },
+            { "section": "综合性学习：倡导低碳生活", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第三单元",
+          "unverified": false,
+          "sections": [
+            { "section": "9 桃花源记", "unverified": false },
+            { "section": "10 小石潭记", "unverified": false },
+            { "section": "11 核舟记", "unverified": false },
+            { "section": "12 《诗经》二首", "unverified": false },
+            { "section": "写作：学写读后感", "unverified": false },
+            { "section": "综合性学习：古诗苑漫步", "unverified": false },
+            { "section": "名著导读：《经典常谈》选择性阅读", "unverified": false },
+            { "section": "课外古诗词诵读：式微、子衿、送杜少府之任蜀州、望洞庭湖赠张丞相", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第四单元",
+          "unverified": false,
+          "sections": [
+            { "section": "任务一 学习演讲词", "unverified": false },
+            { "section": "13 最后一次讲演", "unverified": false },
+            { "section": "14 应有格物致知精神", "unverified": false },
+            { "section": "15 我一生中的重要抉择", "unverified": false },
+            { "section": "16 庆祝奥林匹克运动复兴25周年", "unverified": false },
+            { "section": "任务二 撰写演讲稿", "unverified": false },
+            { "section": "任务三 举办演讲比赛", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第五单元",
+          "unverified": false,
+          "sections": [
+            { "section": "17 壶口瀑布", "unverified": false },
+            { "section": "18 在长江源头各拉丹冬", "unverified": false },
+            { "section": "19 登勃朗峰", "unverified": false },
+            { "section": "20 一滴水经过丽江", "unverified": false },
+            { "section": "写作：学写游记", "unverified": false },
+            { "section": "口语交际：即席讲话", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第六单元",
+          "unverified": false,
+          "sections": [
+            { "section": "21 《庄子》二则", "unverified": false },
+            { "section": "22 《礼记》二则", "unverified": false },
+            { "section": "23 马说", "unverified": false },
+            { "section": "24 唐诗三首", "unverified": false },
+            { "section": "写作：学写故事", "unverified": false },
+            { "section": "综合性学习：以和为贵", "unverified": false },
+            { "section": "名著导读：《钢铁是怎样炼成的》摘抄和做笔记", "unverified": false },
+            { "section": "课外古诗词诵读：题破山寺后禅院、送友人、卜算子·黄州定慧院寓居作、卜算子·咏梅", "unverified": false }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 9,
+      "semester": "上",
+      "book": "九年级上册",
+      "edition": "部编版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第一单元",
+          "unverified": false,
+          "sections": [
+            { "section": "任务一 学习鉴赏", "unverified": false },
+            { "section": "1 沁园春·雪", "unverified": false },
+            { "section": "2 周总理，你在哪里", "unverified": false },
+            { "section": "3 我爱这土地", "unverified": false },
+            { "section": "4 乡愁", "unverified": false },
+            { "section": "5 你是人间的四月天——一句爱的赞颂", "unverified": false },
+            { "section": "6 我看", "unverified": false },
+            { "section": "任务二 诗歌朗诵", "unverified": false },
+            { "section": "任务三 尝试创作", "unverified": false },
+            { "section": "名著导读：《艾青诗选》如何读诗", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第二单元",
+          "unverified": false,
+          "sections": [
+            { "section": "7 敬业与乐业", "unverified": false },
+            { "section": "8 就英法联军远征中国致巴特勒上尉的信", "unverified": false },
+            { "section": "9 论教养", "unverified": false },
+            { "section": "10 精神的三间小屋", "unverified": false },
+            { "section": "写作：观点要明确", "unverified": false },
+            { "section": "综合性学习：君子自强不息", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第三单元",
+          "unverified": false,
+          "sections": [
+            { "section": "11 岳阳楼记", "unverified": false },
+            { "section": "12 醉翁亭记", "unverified": false },
+            { "section": "13 湖心亭看雪", "unverified": false },
+            { "section": "14 诗词三首", "unverified": false },
+            { "section": "写作：议论要言之有据", "unverified": false },
+            { "section": "课外古诗词诵读：月夜忆舍弟、长沙过贾谊宅、左迁至蓝关示侄孙湘、商山早行", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第四单元",
+          "unverified": false,
+          "sections": [
+            { "section": "15 故乡", "unverified": false },
+            { "section": "16 我的叔叔于勒", "unverified": false },
+            { "section": "17 孤独之旅", "unverified": false },
+            { "section": "写作：学习缩写", "unverified": false },
+            { "section": "综合性学习：走进小说天地", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第五单元",
+          "unverified": false,
+          "sections": [
+            { "section": "18 中国人失掉自信力了吗", "unverified": false },
+            { "section": "19 怀疑与学问", "unverified": false },
+            { "section": "20 谈创造性思维", "unverified": false },
+            { "section": "21 创造宣言", "unverified": false },
+            { "section": "写作：论证要合理", "unverified": false },
+            { "section": "口语交际：讨论", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第六单元",
+          "unverified": false,
+          "sections": [
+            { "section": "22 智取生辰纲", "unverified": false },
+            { "section": "23 范进中举", "unverified": false },
+            { "section": "24 三顾茅庐", "unverified": false },
+            { "section": "25 刘姥姥进大观园", "unverified": false },
+            { "section": "写作：学习改写", "unverified": false },
+            { "section": "名著导读：《水浒传》古典小说的阅读", "unverified": false },
+            { "section": "课外古诗词诵读：咸阳城东楼、无题、行香子（树绕村庄）、丑奴儿·书博山道中壁", "unverified": false }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 9,
+      "semester": "下",
+      "book": "九年级下册",
+      "edition": "部编版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第一单元",
+          "unverified": false,
+          "sections": [
+            { "section": "1 祖国啊，我亲爱的祖国", "unverified": false },
+            { "section": "2 梅岭三章", "unverified": false },
+            { "section": "3 短诗五首", "unverified": false },
+            { "section": "4 海燕", "unverified": false },
+            { "section": "写作：学习扩写", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第二单元",
+          "unverified": false,
+          "sections": [
+            { "section": "5 孔乙己", "unverified": false },
+            { "section": "6 变色龙", "unverified": false },
+            { "section": "7 溜索", "unverified": false },
+            { "section": "8 蒲柳人家（节选）", "unverified": false },
+            { "section": "写作：审题立意", "unverified": false },
+            { "section": "综合性学习：岁月如歌——我们的初中生活", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第三单元",
+          "unverified": false,
+          "sections": [
+            { "section": "9 鱼我所欲也", "unverified": false },
+            { "section": "10 唐雎不辱使命", "unverified": false },
+            { "section": "11 送东阳马生序", "unverified": false },
+            { "section": "12 词四首", "unverified": false },
+            { "section": "写作：布局谋篇", "unverified": false },
+            { "section": "名著导读：《儒林外史》讽刺作品的阅读", "unverified": false },
+            { "section": "课外古诗词诵读：定风波（莫听穿林打叶声）、临江仙·夜登小阁，忆洛中旧游、太常引·建康中秋夜为吕叔潜赋、浣溪沙（身向云山那畔行）", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第四单元",
+          "unverified": false,
+          "sections": [
+            { "section": "13 短文两篇", "unverified": false },
+            { "section": "14 山水画的意境", "unverified": false },
+            { "section": "15 无言之美", "unverified": false },
+            { "section": "16 驱遣我们的想象", "unverified": false },
+            { "section": "写作：修改润色", "unverified": false },
+            { "section": "口语交际：辩论", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第五单元",
+          "unverified": false,
+          "sections": [
+            { "section": "任务一 阅读与思考", "unverified": false },
+            { "section": "17 屈原（节选）", "unverified": false },
+            { "section": "18 天下第一楼（节选）", "unverified": false },
+            { "section": "19 枣儿", "unverified": false },
+            { "section": "任务二 准备与排练", "unverified": false },
+            { "section": "任务三 演出与评议", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第六单元",
+          "unverified": false,
+          "sections": [
+            { "section": "20 曹刿论战", "unverified": false },
+            { "section": "21 邹忌讽齐王纳谏", "unverified": false },
+            { "section": "22 出师表", "unverified": false },
+            { "section": "23 诗词曲五首", "unverified": false },
+            { "section": "写作：有创意地表达", "unverified": false },
+            { "section": "名著导读：《简·爱》外国小说的阅读", "unverified": false },
+            { "section": "课外古诗词诵读：南安军、别云间、山坡羊·骊山怀古、朝天子·咏喇叭", "unverified": false }
+          ]
+        }
+      ]
+    }
+  ]
+}

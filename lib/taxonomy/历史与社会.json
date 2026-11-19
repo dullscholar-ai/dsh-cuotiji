@@ -1,0 +1,292 @@
+{
+  "subject": "历史与社会",
+  "publisher": "人教版",
+  "note": "本目录为人教版《历史与社会》（人民教育出版社，义务教育教科书，2011年版课标修订本，共6册）的原版单元/课目录，仅用于归档2020年以前的试卷与错题。在用情况：①2020年6月28日浙江省教育厅办公室印发《关于做好初中历史与社会课程教材调整有关工作的通知》（浙教办教材〔2020〕13号），决定自2020年秋季学期七年级起，浙江初中历史与社会课程教材调整为8册——国家统编历史教材6册（中国历史七上/七下、中国历史八上/八下、世界历史九上/九下）加人教版《人文地理》2册，8册封面均注明“历史与社会课程用书”，课程名称仍叫“历史与社会”；②2022年教育部印发《义务教育课程方案和课程标准（2022年版）》，不再设置“历史与社会”课程标准，初中开设《历史》《地理》；③浙江自2024年秋季学期起初中统一使用部编版《历史》《地理》《道德与法治》。因此上述人教版《历史与社会》6册自2020年秋起逐步退出，2022年秋起在浙江已无年级使用，本文件属历史归档数据，不应用于新错题归类。其他说明：各册单元序号在学期之间连续编号（七年级下册从第五单元起、八年级下册从第五单元起、九年级下册从第五单元起）；教材中的“综合探究一～八”为探究栏目而非课，未收入；七年级上册第四单元在不同印次中又作“文明中心——城市”（人教社官网目录）与“不同类型的城市”（浙江教辅通用），此处采用后者并标注未核实；九年级下册采用2019年印次目录，人教社官网页面所列为其早期印次的旧单元名（第五单元 冷战时期的世界等）。",
+  "books": [
+    {
+      "grade": 7,
+      "semester": "上",
+      "book": "七年级上册",
+      "edition": "人教版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第一单元 人在社会中生活",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 我的家在哪里", "unverified": false },
+            { "section": "第二课 乡村与城市", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第二单元 人类共同生活的世界",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 大洲和大洋", "unverified": false },
+            { "section": "第二课 自然环境", "unverified": false },
+            { "section": "第三课 世界大家庭", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第三单元 各具特色的区域生活",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 家住平原", "unverified": false },
+            { "section": "第二课 与山为邻", "unverified": false },
+            { "section": "第三课 傍水而居", "unverified": false },
+            { "section": "第四课 草原人家", "unverified": false },
+            { "section": "第五课 干旱的宝地", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第四单元 不同类型的城市",
+          "unverified": true,
+          "sections": [
+            { "section": "第一课 美国政治的心脏：华盛顿", "unverified": false },
+            { "section": "第二课 文化艺术之都：巴黎", "unverified": false },
+            { "section": "第三课 IT新城：班加罗尔", "unverified": false },
+            { "section": "第四课 汽车城：蔚山", "unverified": false },
+            { "section": "第五课 城市规划的典范：巴西利亚", "unverified": false }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 7,
+      "semester": "下",
+      "book": "七年级下册",
+      "edition": "人教版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第五单元 中华各族人民的家园",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 国土与人民", "unverified": false },
+            { "section": "第二课 山川秀美", "unverified": false },
+            { "section": "第三课 地域差异显著", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第六单元 一方水土养一方人",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 北方地区", "unverified": false },
+            { "section": "第二课 南方地区", "unverified": false },
+            { "section": "第三课 西北地区", "unverified": false },
+            { "section": "第四课 青藏地区", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第七单元 生活的变化",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 规则的演变", "unverified": false },
+            { "section": "第二课 传媒的行程", "unverified": false },
+            { "section": "第三课 生活的故事", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第八单元 文明探源",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 原始先民的家园", "unverified": false },
+            { "section": "第二课 早期文明区域", "unverified": false },
+            { "section": "第三课 中华文明探源", "unverified": false }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 8,
+      "semester": "上",
+      "book": "八年级上册",
+      "edition": "人教版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第一单元 多元发展的早期文明",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 亚非大河文明", "unverified": false },
+            { "section": "第二课 中华早期国家与社会变革", "unverified": false },
+            { "section": "第三课 西方古典文明", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第二单元 相继兴衰的中古欧亚国家",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 西欧封建国家与基督教文明", "unverified": false },
+            { "section": "第二课 阿拉伯帝国与伊斯兰文明", "unverified": false },
+            { "section": "第三课 日本的大化改新", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第三单元 绵延不绝的中华文明（一）：统一多民族国家的建立和发展",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 秦始皇开创大一统基业", "unverified": false },
+            { "section": "第二课 秦末农民起义与汉朝的建立", "unverified": false },
+            { "section": "第三课 汉武帝时代的大一统格局", "unverified": false },
+            { "section": "第四课 开疆拓土与对外交流", "unverified": false },
+            { "section": "第五课 昌盛的秦汉文化", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第四单元 绵延不绝的中华文明（二）：“多元一体”格局与文明高度发展",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 三国两晋南北朝：政权分立与民族汇聚", "unverified": false },
+            { "section": "第二课 隋唐：开放革新的时代", "unverified": false },
+            { "section": "第三课 宋元：多元文化的碰撞交融与文明高度发展", "unverified": false }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 8,
+      "semester": "下",
+      "book": "八年级下册",
+      "edition": "人教版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第五单元 绵延不绝的中华文明（三）：农耕文明繁盛与近代前夜的危机",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 大一统国家的兴盛与农耕经济的繁荣", "unverified": false },
+            { "section": "第二课 新旧交织的明清文化", "unverified": false },
+            { "section": "第三课 皇权膨胀与近代前夜的危机", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第六单元 世界工业文明的曙光与近代社会的开端",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 连通世界的新航路", "unverified": false },
+            { "section": "第二课 冲破思想的牢笼", "unverified": false },
+            { "section": "第三课 资产阶级革命：新体制的创立", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第七单元 席卷全球的工业文明浪潮",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 工业革命", "unverified": false },
+            { "section": "第二课 工人的斗争与马克思主义的诞生", "unverified": false },
+            { "section": "第三课 资本主义的扩展", "unverified": false },
+            { "section": "第四课 殖民扩张与民族解放运动", "unverified": false },
+            { "section": "第五课 第二次工业革命", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第八单元 19世纪中后期工业文明大潮中的近代中国",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 民族危机与中国人民的英勇抗争", "unverified": false },
+            { "section": "第二课 洋务运动与近代民族工业的发展", "unverified": false },
+            { "section": "第三课 清末变法图强的尝试与文教革新", "unverified": false }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 9,
+      "semester": "上",
+      "book": "九年级上册",
+      "edition": "人教版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第一单元 20世纪初的世界与中国",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 世界的格局与第一次世界大战", "unverified": false },
+            { "section": "第二课 中国的时局与辛亥革命", "unverified": false },
+            { "section": "第三课 悄然转变中的社会生活", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第二单元 开辟新的发展道路",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 第一个社会主义国家的建立和发展", "unverified": false },
+            { "section": "第二课 民族民主运动的高涨", "unverified": false },
+            { "section": "第三课 美国的资本主义改革", "unverified": false },
+            { "section": "第四课 中国新民主主义革命的开始", "unverified": false },
+            { "section": "第五课 开辟革命新道路的艰难历程", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第三单元 中国抗日战争与世界反法西斯战争",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 中国抗日战争", "unverified": false },
+            { "section": "第二课 第二次世界大战的爆发与扩大", "unverified": false },
+            { "section": "第三课 世界反法西斯战争的转折与胜利", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第四单元 中国革命的胜利",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 两种命运的决战", "unverified": false },
+            { "section": "第二课 新中国的诞生", "unverified": false }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 9,
+      "semester": "下",
+      "book": "九年级下册",
+      "edition": "人教版",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第五单元 二战后的世界变化",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 两极格局的形成", "unverified": false },
+            { "section": "第二课 当代资本主义的新变化", "unverified": false },
+            { "section": "第三课 社会主义的发展与挫折", "unverified": false },
+            { "section": "第四课 亚非拉地区的发展", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第六单元 中国社会主义建设的探索与改革开放的起步",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 新生政权的巩固与社会主义制度的建立", "unverified": false },
+            { "section": "第二课 艰辛探索与建设成就", "unverified": false },
+            { "section": "第三课 改革开放的起步", "unverified": false },
+            { "section": "第四课 民族区域自治地方的发展", "unverified": false },
+            { "section": "第五课 “一国两制”与统一大业", "unverified": false },
+            { "section": "第六课 独立自主的新中国外交", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第七单元 聚焦当代中国与世界的发展",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 坚持和发展中国特色社会主义", "unverified": false },
+            { "section": "第二课 经济全球化", "unverified": false },
+            { "section": "第三课 世界多极化趋势", "unverified": false },
+            { "section": "第四课 当代科技革命与社会生活", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第八单元 共同面对前所未有的全球性问题",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 不断变化的人口问题", "unverified": false },
+            { "section": "第二课 日益严峻的资源问题", "unverified": false },
+            { "section": "第三课 共同关注的环境问题", "unverified": false },
+            { "section": "第四课 发展的选择", "unverified": false }
+          ]
+        }
+      ]
+    }
+  ]
+}

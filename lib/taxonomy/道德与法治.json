@@ -1,0 +1,264 @@
+{
+  "subject": "道德与法治",
+  "publisher": "人民教育出版社（部编/统编版）",
+  "note": "全国统一部编（统编）版《道德与法治》，浙江与全国同版，无地方版本差异。教材修订情况：2024年秋季起启用义务教育统编教材修订版（统编版2024），按年级逐年替换——七年级2024年秋（上册）/2025年春（下册），八年级2025年秋/2026年春，九年级2026年秋（上册）/2027年春（下册）。本文件中七年级上下册、八年级上下册、九年级上册为统编版（2024修订版）目录；九年级下册修订版尚未启用，暂列统编版（2016）目录（修订版启用后需更新）。教材各单元末尾的“单元思考与行动”为栏目而非课，未收入；本文件不设知识点层。",
+  "books": [
+    {
+      "grade": 7,
+      "semester": "上",
+      "book": "七年级上册",
+      "edition": "统编版（2024）",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第一单元 少年有梦",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 开启初中生活", "unverified": false },
+            { "section": "第二课 正确认识自我", "unverified": false },
+            { "section": "第三课 梦想始于当下", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第二单元 成长的时空",
+          "unverified": false,
+          "sections": [
+            { "section": "第四课 幸福和睦的家庭", "unverified": false },
+            { "section": "第五课 和谐的师生关系", "unverified": false },
+            { "section": "第六课 友谊之树常青", "unverified": false },
+            { "section": "第七课 在集体中成长", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第三单元 珍爱我们的生命",
+          "unverified": false,
+          "sections": [
+            { "section": "第八课 生命可贵", "unverified": false },
+            { "section": "第九课 守护生命安全", "unverified": false },
+            { "section": "第十课 保持身心健康", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第四单元 追求美好人生",
+          "unverified": false,
+          "sections": [
+            { "section": "第十一课 确立人生目标", "unverified": false },
+            { "section": "第十二课 端正人生态度", "unverified": false },
+            { "section": "第十三课 实现人生价值", "unverified": false }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 7,
+      "semester": "下",
+      "book": "七年级下册",
+      "edition": "统编版（2024）",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第一单元 珍惜青春时光",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 青春正当时", "unverified": false },
+            { "section": "第二课 做情绪情感的主人", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第二单元 焕发青春活力",
+          "unverified": false,
+          "sections": [
+            { "section": "第三课 人贵自尊", "unverified": false },
+            { "section": "第四课 自信给人力量", "unverified": false },
+            { "section": "第五课 人生当自强", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第三单元 传承中华优秀传统文化",
+          "unverified": false,
+          "sections": [
+            { "section": "第六课 传承核心思想理念", "unverified": false },
+            { "section": "第七课 弘扬中华人文精神", "unverified": false },
+            { "section": "第八课 践行中华传统美德", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第四单元 生活在法治社会",
+          "unverified": false,
+          "sections": [
+            { "section": "第九课 法律为我们护航", "unverified": false },
+            { "section": "第十课 走近民法典", "unverified": false },
+            { "section": "第十一课 远离违法犯罪", "unverified": false }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 8,
+      "semester": "上",
+      "book": "八年级上册",
+      "edition": "统编版（2024）",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第一单元 走进社会生活",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 丰富的社会生活", "unverified": false },
+            { "section": "第二课 在社会中健康成长", "unverified": false },
+            { "section": "第三课 共建网络美好家园", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第二单元 维护社会秩序",
+          "unverified": false,
+          "sections": [
+            { "section": "第四课 遵守社会规则", "unverified": false },
+            { "section": "第五课 社会生活讲道德", "unverified": false },
+            { "section": "第六课 提升法治素养", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第三单元 勇担社会责任",
+          "unverified": false,
+          "sections": [
+            { "section": "第七课 追求自由平等", "unverified": false },
+            { "section": "第八课 维护公平正义", "unverified": false },
+            { "section": "第九课 积极奉献社会", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第四单元 维护国家利益",
+          "unverified": false,
+          "sections": [
+            { "section": "第十课 国家利益至上", "unverified": false },
+            { "section": "第十一课 军强才能国安", "unverified": false },
+            { "section": "第十二课 树立总体国家安全观", "unverified": false }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 8,
+      "semester": "下",
+      "book": "八年级下册",
+      "edition": "统编版（2024）",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第一单元 坚持宪法至上",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 治国安邦的总章程", "unverified": false },
+            { "section": "第二课 维护宪法权威", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第二单元 理解权利义务",
+          "unverified": false,
+          "sections": [
+            { "section": "第三课 公民的基本权利和义务", "unverified": false },
+            { "section": "第四课 依法行使权利和履行义务", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第三单元 认识国家制度",
+          "unverified": false,
+          "sections": [
+            { "section": "第五课 我国的政治制度", "unverified": false },
+            { "section": "第六课 我国的基本经济制度", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第四单元 走近国家机构",
+          "unverified": false,
+          "sections": [
+            { "section": "第七课 国家权力机关", "unverified": false },
+            { "section": "第八课 中华人民共和国主席", "unverified": false },
+            { "section": "第九课 国家行政机关", "unverified": false },
+            { "section": "第十课 中央军事委员会", "unverified": false },
+            { "section": "第十一课 国家监察机关", "unverified": false },
+            { "section": "第十二课 国家司法机关", "unverified": false }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 9,
+      "semester": "上",
+      "book": "九年级上册",
+      "edition": "统编版（2024）",
+      "unverified": false,
+      "chapters": [
+        {
+          "chapter": "第一单元 坚持党的全面领导",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 百年大党风华正茂", "unverified": false },
+            { "section": "第二课 坚持以人民为中心", "unverified": false },
+            { "section": "第三课 党是领导一切的", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第二单元 进入新时代",
+          "unverified": false,
+          "sections": [
+            { "section": "第四课 新的历史方位", "unverified": false },
+            { "section": "第五课 新时代的思想旗帜", "unverified": false },
+            { "section": "第六课 中国腾飞谱新篇", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第三单元 奋进新征程",
+          "unverified": false,
+          "sections": [
+            { "section": "第七课 擘画宏伟蓝图", "unverified": false },
+            { "section": "第八课 实现高质量发展", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第四单元 共圆中国梦",
+          "unverified": false,
+          "sections": [
+            { "section": "第九课 凝聚团结伟力", "unverified": false },
+            { "section": "第十课 实现伟大梦想", "unverified": false }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 9,
+      "semester": "下",
+      "book": "九年级下册",
+      "edition": "统编版（2016）",
+      "unverified": true,
+      "chapters": [
+        {
+          "chapter": "第一单元 我们共同的世界",
+          "unverified": false,
+          "sections": [
+            { "section": "第一课 同住地球村", "unverified": false },
+            { "section": "第二课 构建人类命运共同体", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第二单元 世界舞台上的中国",
+          "unverified": false,
+          "sections": [
+            { "section": "第三课 与世界紧相连", "unverified": false },
+            { "section": "第四课 与世界共发展", "unverified": false }
+          ]
+        },
+        {
+          "chapter": "第三单元 走向未来的少年",
+          "unverified": false,
+          "sections": [
+            { "section": "第五课 少年的担当", "unverified": false },
+            { "section": "第六课 我的毕业季", "unverified": false },
+            { "section": "第七课 从这里出发", "unverified": false }
+          ]
+        }
+      ]
+    }
+  ]
+}

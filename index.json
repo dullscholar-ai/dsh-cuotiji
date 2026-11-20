@@ -38,6 +38,18 @@
       },
       "versions": [
         {
+          "version": "1.0.1",
+          "publishTimestamp": 1795136769,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dullscholar-ai/dsh-cuotiji",
+            "commit": "fc1b06ff8412b672e89fd823cbb7ed5cbddc1967"
+          },
+          "engines": {
+            "dsh": ">=0.2.0"
+          }
+        },
+        {
           "version": "1.0.0",
           "publishTimestamp": 1763580000,
           "source": {

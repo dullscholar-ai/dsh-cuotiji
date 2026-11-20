@@ -21,6 +21,7 @@ import { randomUUID } from 'node:crypto';
 import {
   buildIndex,
   deleteQuestion,
+  deleteQuestions,
   ensureRoot,
   kindOfFile,
   listInbox,
@@ -510,7 +511,12 @@ export async function apply(ctx, config = {}) {
         try {
           const body = await request.json();
           const dirs = dirsFor(ctx, config);
-          return jsonOf({ ok: await deleteQuestion(dirs.root, String(body.id ?? '')) });
+          // 批量删除：面板里勾选后一次删多道（传 ids）；单条删除仍可只传 id。
+          const ids = Array.isArray(body.ids)
+            ? body.ids
+            : [String(body.id ?? '')].filter((id) => id !== '');
+          const result = await deleteQuestions(dirs.root, ids);
+          return jsonOf({ ok: result.count > 0, deleted: result.count, missing: result.missing });
         } catch (error) {
           return failure(error);
         }

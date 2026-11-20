@@ -8,11 +8,11 @@
  * 设计约定：只用 `--dsw-alias-*` 主题 token，不写死颜色；8pt 间距节奏；
  * 正文行长限制在 ~46em；交互态（hover / selected / focus / disabled）齐备；
  * 首屏不出现编辑表单，复核区按需展开。
- * @module @dullscholar-ai/dsh-cuotiji/client
+ * @module @local/dsh-cuotiji/client
  */
 
 window.__ModuleLoader__.load({
-  id: '@dullscholar-ai/dsh-cuotiji',
+  id: '@local/dsh-cuotiji',
   factory(require) {
     const React = require('react');
     const h = React.createElement;
@@ -714,7 +714,7 @@ window.__ModuleLoader__.load({
           className: `cjt-check${checked ? ' cjt-on' : ''}`,
           role: 'checkbox',
           'aria-checked': checked === true,
-          'aria-label': `选择第 ${question.q === '' ? question.id : question.q} 题以便批量导出`,
+          'aria-label': `选择第 ${question.q === '' ? question.id : question.q} 题以便批量导出或删除`,
           tabIndex: 0,
           onClick: (event) => {
             event.stopPropagation();
@@ -910,6 +910,8 @@ window.__ModuleLoader__.load({
       const [draft, setDraft] = useState(undefined);
       const [dragging, setDragging] = useState(false);
       const [picked, setPicked] = useState([]);
+      // 批量删除是破坏性操作：第一次点只是展开确认条，再点「确认删除」才真正删。
+      const [confirming, setConfirming] = useState(false);
       const [from, setFrom] = useState('');
       const [to, setTo] = useState('');
       const fileInput = useRef(null);
@@ -991,8 +993,10 @@ window.__ModuleLoader__.load({
         setSelectedId('');
       }, []);
 
-      /** 勾选/取消一道题（用于批量导出）。 */
+      /** 勾选/取消一道题（用于批量导出、批量删除）。 */
       const togglePicked = useCallback((id) => {
+        // 选择变了，之前弹出的删除确认条就不再对应当前这批题，先收起来。
+        setConfirming(false);
         setPicked((current) => (current.includes(id)
           ? current.filter((item) => item !== id)
           : [...current, id]));
@@ -1000,6 +1004,7 @@ window.__ModuleLoader__.load({
 
       /** 把当前筛选结果全部加入选择。 */
       const pickAllFiltered = useCallback(() => {
+        setConfirming(false);
         setPicked((current) => {
           const merged = new Set(current);
           for (const item of filtered) merged.add(item.id);
@@ -1007,7 +1012,10 @@ window.__ModuleLoader__.load({
         });
       }, [filtered]);
 
-      const clearPicked = useCallback(() => setPicked([]), []);
+      const clearPicked = useCallback(() => {
+        setConfirming(false);
+        setPicked([]);
+      }, []);
 
       const upload = useCallback(async (files) => {
         const list = [...files];
@@ -1107,6 +1115,35 @@ window.__ModuleLoader__.load({
           setBusy('');
         }
       }, [selected, load]);
+
+      /** 批量删除已勾选的题（连同各自的配图目录）。 */
+      const removeMany = useCallback(async () => {
+        if (picked.length === 0) return;
+        const ids = [...picked];
+        setBusy('deleteMany');
+        setError('');
+        setNotice('');
+        try {
+          const data = await request('/delete', {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ ids }),
+          });
+          const deleted = Number(data.deleted ?? 0);
+          setPicked([]);
+          setSelectedId('');
+          setEditing(false);
+          setConfirming(false);
+          setNotice(deleted === ids.length
+            ? `已删除 ${deleted} 道错题。`
+            : `已删除 ${deleted} 道；${ids.length - deleted} 道未找到（可能已被删除）。`);
+          await load();
+        } catch (failure) {
+          setError(String(failure.message ?? failure));
+        } finally {
+          setBusy('');
+        }
+      }, [picked, load]);
 
       const runExport = useCallback(async (split) => {
         // 只导手动勾选的题：未勾选任何题时导出数量为 0，不做任何事。
@@ -1312,6 +1349,13 @@ window.__ModuleLoader__.load({
             },
           }),
           h('button', {
+            className: 'cjt-btn cjt-danger',
+            type: 'button',
+            disabled: busy !== '' || picked.length === 0,
+            title: '删除左栏中已勾选的题（连同配图，不可恢复）',
+            onClick: () => setConfirming(true),
+          }, h(Icon, { name: 'trash', size: 15 }), `删除选中（${picked.length}）`),
+          h('button', {
             className: 'cjt-btn',
             type: 'button',
             disabled: !canExport,
@@ -1330,6 +1374,27 @@ window.__ModuleLoader__.load({
             : `导出 PDF（${exportCount}）`))),
 
       banner,
+
+      // 批量删除确认条：勾选的题会连同配图一起永久删除，必须再点一次「确认删除」。
+      confirming && picked.length > 0
+        ? h('div', { className: 'cjt-banner cjt-err' },
+          h(Icon, { name: 'warn', size: 14 }),
+          h('span', { className: 'cjt-banner-text' },
+            `将永久删除勾选的 ${picked.length} 道错题及其配图，无法恢复。`),
+          h('button', {
+            className: 'cjt-btn cjt-danger',
+            type: 'button',
+            disabled: busy !== '',
+            onClick: removeMany,
+          }, busy === 'deleteMany' ? h('span', { className: 'cjt-spin' }) : h(Icon, { name: 'trash', size: 14 }),
+          busy === 'deleteMany' ? '删除中…' : '确认删除'),
+          h('button', {
+            className: 'cjt-btn',
+            type: 'button',
+            disabled: busy !== '',
+            onClick: () => setConfirming(false),
+          }, '取消'))
+        : null,
 
       inboxCount === 0
         ? null

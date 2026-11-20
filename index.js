@@ -11,7 +11,7 @@
  * 刻意只用 Node 内置模块与 Cordis 运行时对象：profile 里安装的是链接目录，
  * 解析不到 dsh 安装目录下的 `@deepseek-ai/*` 包，所以这里不 import 它们，
  * 工具定义用注册表直接接受的 JSON Schema 形状。
- * @module @dullscholar-ai/dsh-cuotiji
+ * @module @local/dsh-cuotiji
  */
 
 import { promises as fsp } from 'node:fs';
@@ -229,8 +229,12 @@ ${ocrBlocks === '' ? '' : `${ocrBlocks}
 1. 逐字完整抄录题干。不许概括、压缩、改写、合并小问；选择题的题干与全部选项都要抄全。
 2. 表格一律还原成 GFM 表格（形如 | 列1 | 列2 |），保留表头与每一行数据。
 3. 公式保留原文，用 $...$ 包裹，不要自己重写成结论。
-4. 配图、示意图、电路图、几何图：不要用文字描述代替。每道题都要把这份原卷的原图整份作为配图传进去
-   （figures 传 { source: "上面那个绝对路径", caption: "原卷原件 · 第N题" }），整页保留、不裁切，细节才不会丢。
+4. 配图、示意图、电路图、几何图：不要用文字描述代替。**每道题的配图必须是「只含该题的单独截图」，绝不是整张试卷**——
+    整页原卷会让每道题都重复出现整张卷子，无法对应到具体题目，也浪费版面。
+    做法：用本机 OCR 的带坐标结果（_inbox/_ocr/ 下每段文字含坐标，或用 rapidocr 重跑取 boxes）定位本题题号，
+    按题号与下一题题号的边界（双栏要按栏、跨页题要合并两页）把该题连同示意图裁成单独图片，
+    存到 错题本/<学科>/assets/<题号>/第N题.png，figures 传 { source: 该单题截图绝对路径, caption: "原卷原件 · 第N题" }。
+    截图须含完整题干、全部选项/小问和示意图，宁可略宽不要裁掉内容；确实无法裁切才退回整页并标注存疑。
 5. 解题思路要写「为什么这样做」：先判断考点，再写关键步骤，最后写易错点，不是只写最终答案。
 6. 答案单独写清楚，选择题写选项和内容。
 7. 分类：subject 是学科（数学/语文/英语/物理/化学/生物/历史/地理/政治/科学…），
@@ -541,7 +545,8 @@ export async function apply(ctx, config = {}) {
       'Write one mistake into the mistake notebook (错题本). Use it once per question after reading an exam or homework file. '
       + 'The subject/chapter/section must be copied from cuotiji_taxonomy (浙江省在用教材目录); a chapter outside that catalogue is rejected with candidates. '
       + 'Copy the stem verbatim: never summarise, shorten, rewrite, or merge sub-questions; render tables as GFM tables; keep formulas as $...$ text. '
-      + 'Pass the original page image through figures so nothing is lost, and write the reasoning in analysis (why, step by step), not just the answer.',
+      + 'For figures, pass a SEPARATE screenshot containing ONLY this question (crop the full page by the question-number coordinates from OCR boxes; never attach the whole exam page for every question). '
+      + 'Write the reasoning in analysis (why, step by step), not just the answer.',
     parameters: {
       type: 'object',
       additionalProperties: false,
@@ -560,7 +565,7 @@ export async function apply(ctx, config = {}) {
         answer: { type: 'string', description: '最终答案。' },
         figures: {
           type: 'array',
-          description: '原卷图。每项 { source, caption }；source 是原卷文件的绝对路径或错题本内相对路径。',
+          description: '本题单独截图（只含这一道题，绝不是整张试卷）。每项 { source, caption }；source 是该单题截图的绝对路径或错题本内相对路径。',
           items: {
             type: 'object',
             additionalProperties: false,
@@ -849,7 +854,7 @@ export async function apply(ctx, config = {}) {
   把 chapter、section **逐字照抄**进去。写错会被 cuotiji_save 拒绝并给出候选，不要换一种写法硬试。
 - topics 是自由标注的知识点标签，不受目录限制；章节归类才是硬约束。
 - 抄录题面必须逐字完整：不许概括、压缩、改写、合并小问；表格还原成 GFM 表格；公式保留 $...$ 原文。
-- 配图不要用文字描述代替：把原卷原图作为 figures 传进去，整页保留。
+- 配图必须是「只含该题的单独截图」，不是整张试卷：按 OCR 题号坐标把该题（含示意图）裁成单独图片，再作为 figures 传入。绝不给每道题都挂整页原卷。
 - analysis 写解题思路（考点判断 → 关键步骤 → 易错点），不是只写答案；answer 单独写最终答案。
 - 看不清的地方写「⚠ 识别存疑：……」，不要猜。
 - 用户问某个知识点的错题时先用 cuotiji_search；要成册时用 cuotiji_export。`,

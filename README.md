@@ -13,8 +13,15 @@ DeepSeek Harness（DSH）插件：把试卷、作业、练习册变成可以按�
 
 ## 安装
 
+### 从 npm 安装（推荐）
+```bash
+npm install dsh-cuotiji
+```
+或在 DSH 的「插件 → 添加插件」里直接填包名 `dsh-cuotiji`。
+npm 官方源：`https://registry.npmjs.org/`；国内可用镜像：`https://registry.npmmirror.com/`（镜像自动同步 npm 官方源）。
+
 ### 从插件市场
-在 DSH 的「插件 → 发现」中添加本仓库的 [index.json](index.json) 索引源，搜索「错题本」并安装。
+在 DSH 的「插件 → 发现」中添加本仓库的 [index.json](index.json) 索引源，搜索「错题本」并安装（拉取的就是上面的 npm 包）。
 
 ### 本地目录
 把本仓库克隆到本地，在「插件 → 添加插件」选择仓库根目录即可。

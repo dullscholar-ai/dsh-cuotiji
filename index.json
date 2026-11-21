@@ -19,7 +19,7 @@
   },
   "plugins": [
     {
-      "name": "@dullscholar-ai/dsh-cuotiji",
+      "name": "dsh-cuotiji",
       "title": { "en": "Mistake notebook", "zh": "错题本" },
       "description": {
         "en": "Turn exam papers into a searchable, printable mistake set. Upload scans, recognise questions locally, organise by knowledge point, and export one-question-per-page PDFs.",
@@ -38,48 +38,11 @@
       },
       "versions": [
         {
-          "version": "1.0.3",
-          "publishTimestamp": 1795178078,
+          "version": "1.0.4",
+          "publishTimestamp": 1795216116,
           "source": {
-            "type": "git",
-            "url": "https://github.com/dullscholar-ai/dsh-cuotiji",
-            "commit": "914ff54c192b1af7751587075ca5db3dfea0d91d"
-          },
-          "engines": {
-            "dsh": ">=0.2.0"
-          }
-        },
-        {
-          "version": "1.0.2",
-          "publishTimestamp": 1795137997,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dullscholar-ai/dsh-cuotiji",
-            "commit": "9f3b47a53aeb219bad9cc7b5c3e4c1a841052e0e"
-          },
-          "engines": {
-            "dsh": ">=0.2.0"
-          }
-        },
-        {
-          "version": "1.0.1",
-          "publishTimestamp": 1795136769,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dullscholar-ai/dsh-cuotiji",
-            "commit": "fc1b06ff8412b672e89fd823cbb7ed5cbddc1967"
-          },
-          "engines": {
-            "dsh": ">=0.2.0"
-          }
-        },
-        {
-          "version": "1.0.0",
-          "publishTimestamp": 1763580000,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dullscholar-ai/dsh-cuotiji",
-            "commit": "a5aa5f2681a53bfe24230e56a8910cb5a32d7b64"
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
           },
           "engines": {
             "dsh": ">=0.2.0"

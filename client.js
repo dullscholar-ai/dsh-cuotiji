@@ -8,11 +8,11 @@
  * 设计约定：只用 `--dsw-alias-*` 主题 token，不写死颜色；8pt 间距节奏；
  * 正文行长限制在 ~46em；交互态（hover / selected / focus / disabled）齐备；
  * 首屏不出现编辑表单，复核区按需展开。
- * @module @local/dsh-cuotiji/client
+ * @module dsh-cuotiji/client
  */
 
 window.__ModuleLoader__.load({
-  id: '@local/dsh-cuotiji',
+  id: 'dsh-cuotiji',
   factory(require) {
     const React = require('react');
     const h = React.createElement;

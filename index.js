@@ -11,7 +11,7 @@
  * 刻意只用 Node 内置模块与 Cordis 运行时对象：profile 里安装的是链接目录，
  * 解析不到 dsh 安装目录下的 `@deepseek-ai/*` 包，所以这里不 import 它们，
  * 工具定义用注册表直接接受的 JSON Schema 形状。
- * @module @local/dsh-cuotiji
+ * @module dsh-cuotiji
  */
 
 import { promises as fsp } from 'node:fs';
